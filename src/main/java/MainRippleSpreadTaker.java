@@ -7,14 +7,17 @@ import com.ripple.core.coretypes.Issue;
 import com.ripple.core.coretypes.STObject;
 import com.ripple.core.types.known.sle.entries.Offer;
 import org.json.JSONException;
+import org.slf4j.Logger;
 
 import java.math.BigDecimal;
+import java.util.Arrays;
 
 /**
  * This code was inspired on CheckPrice class from ripple-cli lib.
  * Created by bob on 22/11/14.
  */
 public class MainRippleSpreadTaker {
+
     // TODO change accountID
     public static final AccountID RIPPEX = AccountID.fromAddress("rfNZPxoZ5Uaamdp339U9dCLWz2T73nZJZH");
     public static final AccountID BITSTAMP = AccountID.fromAddress("rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B");
@@ -38,15 +41,9 @@ public class MainRippleSpreadTaker {
                             book.bid.toText(),
                             book.spread.toText());
 
-                    System.out.printf("%nAsk offers%n");
-                    for (STObject offer : book.asks) {
-                        showOfferInfo((Offer) offer);
-                    }
+                    System.out.println(Arrays.toString(book.asks.toArray()));
+                    System.out.println(Arrays.toString(book.bids.toArray()));
 
-                    System.out.printf("%nBid offers%n");
-                    for (STObject offer : book.bids) {
-                        showOfferInfo((Offer) offer);
-                    }
                 } else {
                     System.out.printf("%s No info!%n", book.currencyPair());
                 }

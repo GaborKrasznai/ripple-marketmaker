@@ -19,11 +19,7 @@
             <artifactId>xchange-examples</artifactId>
             <version>2.1.0</version>
         </dependency>
-        <dependency>
-            <groupId>com.xeiam.xchange</groupId>
-            <artifactId>xchange-XYZ</artifactId>
-            <version>2.1.0</version>
-        </dependency>
+
 
         <!--RIPPLE LIBS-->
         <dependency>
@@ -50,6 +46,12 @@
             <groupId>com.ripple</groupId>
             <artifactId>ripple-bouncycastle</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
