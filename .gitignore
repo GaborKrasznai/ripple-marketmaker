@@ -1,12 +1,28 @@
 *.class
-
+*.iml
+target
+application.properties
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
-
+.idea
 # Package Files #
-*.jar
 *.war
 *.ear
-
+store/
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/bin/
+/build/
+/ripplecanceloffers/.classpath
+/ripplecanceloffers/.gitignore
+/ripplecanceloffers/.project
+/ripplecanceloffers/.settings/gradle/org.springsource.ide.eclipse.gradle.core.prefs
+/ripplecanceloffers/.settings/gradle/org.springsource.ide.eclipse.gradle.refresh.prefs
+/ripplecanceloffers/.settings/org.eclipse.jdt.core.prefs
+/ripplecreateoffers/.classpath
+/ripplecreateoffers/.gitignore
+/ripplecreateoffers/.project
+/ripplecreateoffers/.settings/gradle/org.springsource.ide.eclipse.gradle.core.prefs
+/ripplecreateoffers/.settings/gradle/org.springsource.ide.eclipse.gradle.refresh.prefs
+/ripplecreateoffers/.settings/org.eclipse.jdt.core.prefs
+/.gradle/
