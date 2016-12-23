@@ -1,0 +1,1087 @@
+{
+    "deepness": "0.001000000000",
+    "incentives": [
+        {
+            "value_M": "[323.7, 323.48]",
+            "Opp_NM": false,
+            "incMN": 0.004467161225242817,
+            "ratio_MN": 1,
+            "incNM": -0.01864347179031865,
+            "Opp_MN": true,
+            "keyM": "#BITSTAMP",
+            "keyN": "BTC/rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B/USD/rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+            "value_N": "[322.0339799113889, 317.77556030578637]"
+        }
+    ],
+    "exchanges": [
+        {
+            "ask": 323.7,
+            "bid": 323.48,
+            "key": "#BITSTAMP"
+        },
+        {
+            "pathfind": {
+                "amount2": 0.001013400714647485,
+                "amount1": 0.3220339799113889,
+                "counterIssue": "USD/rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+                "pathfind2": {
+                    "result": {
+                        "destination_amount": {
+                            "currency": "USD",
+                            "value": "0.322033979911",
+                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                        },
+                        "full_reply": true,
+                        "alternatives": [
+                            {
+                                "source_amount": "77018775",
+                                "paths_computed": [
+                                    [
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "CNY",
+                                            "type": 48,
+                                            "issuer": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "JPY",
+                                            "type": 48,
+                                            "issuer": "r94s8px6kSw1uZ1MV98dhSRTvc6VMPoPcN"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "FMM",
+                                            "type": 48,
+                                            "issuer": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ]
+                                ]
+                            },
+                            {
+                                "source_amount": {
+                                    "currency": "BRL",
+                                    "value": "1.274943241492446",
+                                    "issuer": "r4PowrZ7KZw83oWDYxzY82ht2kgDmFUpB7"
+                                },
+                                "paths_computed": [
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rfNZPxoZ5Uaamdp339U9dCLWz2T73nZJZH"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rfNZPxoZ5Uaamdp339U9dCLWz2T73nZJZH"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000010",
+                                            "currency": "XRP",
+                                            "type": 16
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rfNZPxoZ5Uaamdp339U9dCLWz2T73nZJZH"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000010",
+                                            "currency": "XRP",
+                                            "type": 16
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rLDtszBZMAKc4iGJ7ghTpse3imETfWcWQf"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rfNZPxoZ5Uaamdp339U9dCLWz2T73nZJZH"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000010",
+                                            "currency": "XRP",
+                                            "type": 16
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rLL13RytJfvE6MSwp8AUTKfkgUW1iPQ6Zv"
+                                        }
+                                    ]
+                                ]
+                            },
+                            {
+                                "source_amount": {
+                                    "currency": "BTC",
+                                    "value": "0.001013400714647485",
+                                    "issuer": "r4PowrZ7KZw83oWDYxzY82ht2kgDmFUpB7"
+                                },
+                                "paths_computed": [
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000010",
+                                            "currency": "XRP",
+                                            "type": 16
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "CNY",
+                                            "type": 48,
+                                            "issuer": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "EUR",
+                                            "type": 48,
+                                            "issuer": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ]
+                                ]
+                            },
+                            {
+                                "source_amount": {
+                                    "currency": "EUR",
+                                    "value": "0.308645786928379",
+                                    "issuer": "r4PowrZ7KZw83oWDYxzY82ht2kgDmFUpB7"
+                                },
+                                "paths_computed": [
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000010",
+                                            "currency": "XRP",
+                                            "type": 16
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "CNY",
+                                            "type": 48,
+                                            "issuer": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000010",
+                                            "currency": "XRP",
+                                            "type": 16
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rLDtszBZMAKc4iGJ7ghTpse3imETfWcWQf"
+                                        }
+                                    ]
+                                ]
+                            },
+                            {
+                                "source_amount": {
+                                    "currency": "XAU",
+                                    "value": "0.000303244249175466",
+                                    "issuer": "r4PowrZ7KZw83oWDYxzY82ht2kgDmFUpB7"
+                                },
+                                "paths_computed": [
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rrh7rf1gV2pXAoqA8oYbpHd8TKv5ZQeo67"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000010",
+                                            "currency": "XRP",
+                                            "type": 16
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rrh7rf1gV2pXAoqA8oYbpHd8TKv5ZQeo67"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rrh7rf1gV2pXAoqA8oYbpHd8TKv5ZQeo67"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000010",
+                                            "currency": "XRP",
+                                            "type": 16
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rLDtszBZMAKc4iGJ7ghTpse3imETfWcWQf"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rrh7rf1gV2pXAoqA8oYbpHd8TKv5ZQeo67"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000010",
+                                            "currency": "XRP",
+                                            "type": 16
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rLL13RytJfvE6MSwp8AUTKfkgUW1iPQ6Zv"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ],
+                        "source_account": "r4PowrZ7KZw83oWDYxzY82ht2kgDmFUpB7",
+                        "id": 1762935868,
+                        "destination_account": "r4PowrZ7KZw83oWDYxzY82ht2kgDmFUpB7",
+                        "status": "success"
+                    },
+                    "pathFrom": "r4PowrZ7KZw83oWDYxzY82ht2kgDmFUpB7",
+                    "amount": 0.3220339799113889,
+                    "alternative": {
+                        "source_amount": {
+                            "currency": "BTC",
+                            "value": "0.001013400714647485",
+                            "issuer": "r4PowrZ7KZw83oWDYxzY82ht2kgDmFUpB7"
+                        },
+                        "paths_computed": [
+                            [
+                                {
+                                    "type_hex": "0000000000000001",
+                                    "type": 1,
+                                    "account": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                },
+                                {
+                                    "type_hex": "0000000000000010",
+                                    "currency": "XRP",
+                                    "type": 16
+                                },
+                                {
+                                    "type_hex": "0000000000000030",
+                                    "currency": "USD",
+                                    "type": 48,
+                                    "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                }
+                            ],
+                            [
+                                {
+                                    "type_hex": "0000000000000001",
+                                    "type": 1,
+                                    "account": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                },
+                                {
+                                    "type_hex": "0000000000000030",
+                                    "currency": "BTC",
+                                    "type": 48,
+                                    "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                },
+                                {
+                                    "type_hex": "0000000000000030",
+                                    "currency": "USD",
+                                    "type": 48,
+                                    "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                }
+                            ],
+                            [
+                                {
+                                    "type_hex": "0000000000000001",
+                                    "type": 1,
+                                    "account": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                },
+                                {
+                                    "type_hex": "0000000000000030",
+                                    "currency": "CNY",
+                                    "type": 48,
+                                    "issuer": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y"
+                                },
+                                {
+                                    "type_hex": "0000000000000030",
+                                    "currency": "USD",
+                                    "type": 48,
+                                    "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                }
+                            ],
+                            [
+                                {
+                                    "type_hex": "0000000000000001",
+                                    "type": 1,
+                                    "account": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                },
+                                {
+                                    "type_hex": "0000000000000030",
+                                    "currency": "EUR",
+                                    "type": 48,
+                                    "issuer": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                },
+                                {
+                                    "type_hex": "0000000000000030",
+                                    "currency": "USD",
+                                    "type": 48,
+                                    "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                }
+                            ]
+                        ]
+                    },
+                    "pathTo": "r4PowrZ7KZw83oWDYxzY82ht2kgDmFUpB7",
+                    "baseAsset": "USD/rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+                    "issues": [
+                        {
+                            "native": false
+                        },
+                        {
+                            "native": false
+                        }
+                    ]
+                },
+                "ask": 322.0339799113889,
+                "exchange": "BTC/rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B/USD/rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+                "bid": 317.77556030578637,
+                "baseIssue": "BTC/rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+                "pathfind1": {
+                    "result": {
+                        "destination_amount": {
+                            "currency": "BTC",
+                            "value": "0.001",
+                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                        },
+                        "full_reply": true,
+                        "alternatives": [
+                            {
+                                "source_amount": "76782554",
+                                "paths_computed": [
+                                    [
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "CNY",
+                                            "type": 48,
+                                            "issuer": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rLEsXccBGNR3UPuPu2hUXPjziKC3qKSBun"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ]
+                                ]
+                            },
+                            {
+                                "source_amount": {
+                                    "currency": "BRL",
+                                    "value": "1.254994883466366",
+                                    "issuer": "r4PowrZ7KZw83oWDYxzY82ht2kgDmFUpB7"
+                                },
+                                "paths_computed": [
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rfNZPxoZ5Uaamdp339U9dCLWz2T73nZJZH"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rfNZPxoZ5Uaamdp339U9dCLWz2T73nZJZH"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000010",
+                                            "currency": "XRP",
+                                            "type": 16
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rfNZPxoZ5Uaamdp339U9dCLWz2T73nZJZH"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000010",
+                                            "currency": "XRP",
+                                            "type": 16
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rNPRNzBB92BVpAhhZr4iXDTveCgV5Pofm9"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rNPRNzBB92BVpAhhZr4iXDTveCgV5Pofm9"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rHCsxDPxqhDGwAeEWcCancy2GTGwVW9qAt"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rfNZPxoZ5Uaamdp339U9dCLWz2T73nZJZH"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000010",
+                                            "currency": "XRP",
+                                            "type": 16
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rfYv1TXnwgDDK4WQNbFALykYuEBnrR4pDX"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rfYv1TXnwgDDK4WQNbFALykYuEBnrR4pDX"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rPtJfZe6KfdnXy7w8bZ6Kf4yk1ZWWkQQhK"
+                                        }
+                                    ]
+                                ]
+                            },
+                            {
+                                "source_amount": {
+                                    "currency": "EUR",
+                                    "value": "0.3067267275129139",
+                                    "issuer": "r4PowrZ7KZw83oWDYxzY82ht2kgDmFUpB7"
+                                },
+                                "paths_computed": [
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000010",
+                                            "currency": "XRP",
+                                            "type": 16
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "CNY",
+                                            "type": 48,
+                                            "issuer": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rG6FZ31hDHN1K5Dkbma3PSB5uVCuVVRzfn"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ]
+                                ]
+                            },
+                            {
+                                "source_amount": {
+                                    "currency": "USD",
+                                    "value": "0.3220339799113889",
+                                    "issuer": "r4PowrZ7KZw83oWDYxzY82ht2kgDmFUpB7"
+                                },
+                                "paths_computed": [
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000010",
+                                            "currency": "XRP",
+                                            "type": 16
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "CNY",
+                                            "type": 48,
+                                            "issuer": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "EUR",
+                                            "type": 48,
+                                            "issuer": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ]
+                                ]
+                            },
+                            {
+                                "source_amount": {
+                                    "currency": "XAU",
+                                    "value": "0.0003013587747720513",
+                                    "issuer": "r4PowrZ7KZw83oWDYxzY82ht2kgDmFUpB7"
+                                },
+                                "paths_computed": [
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rrh7rf1gV2pXAoqA8oYbpHd8TKv5ZQeo67"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000010",
+                                            "currency": "XRP",
+                                            "type": 16
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rrh7rf1gV2pXAoqA8oYbpHd8TKv5ZQeo67"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "USD",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rrh7rf1gV2pXAoqA8oYbpHd8TKv5ZQeo67"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "EUR",
+                                            "type": 48,
+                                            "issuer": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rrh7rf1gV2pXAoqA8oYbpHd8TKv5ZQeo67"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000010",
+                                            "currency": "XRP",
+                                            "type": 16
+                                        },
+                                        {
+                                            "type_hex": "0000000000000030",
+                                            "currency": "BTC",
+                                            "type": 48,
+                                            "issuer": "rNPRNzBB92BVpAhhZr4iXDTveCgV5Pofm9"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rNPRNzBB92BVpAhhZr4iXDTveCgV5Pofm9"
+                                        },
+                                        {
+                                            "type_hex": "0000000000000001",
+                                            "type": 1,
+                                            "account": "rHCsxDPxqhDGwAeEWcCancy2GTGwVW9qAt"
+                                        }
+                                    ]
+                                ]
+                            }
+                        ],
+                        "source_account": "r4PowrZ7KZw83oWDYxzY82ht2kgDmFUpB7",
+                        "id": -752101878,
+                        "destination_account": "r4PowrZ7KZw83oWDYxzY82ht2kgDmFUpB7",
+                        "status": "success"
+                    },
+                    "pathFrom": "r4PowrZ7KZw83oWDYxzY82ht2kgDmFUpB7",
+                    "amount": 0.001,
+                    "alternative": {
+                        "source_amount": {
+                            "currency": "USD",
+                            "value": "0.3220339799113889",
+                            "issuer": "r4PowrZ7KZw83oWDYxzY82ht2kgDmFUpB7"
+                        },
+                        "paths_computed": [
+                            [
+                                {
+                                    "type_hex": "0000000000000001",
+                                    "type": 1,
+                                    "account": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                },
+                                {
+                                    "type_hex": "0000000000000010",
+                                    "currency": "XRP",
+                                    "type": 16
+                                },
+                                {
+                                    "type_hex": "0000000000000030",
+                                    "currency": "BTC",
+                                    "type": 48,
+                                    "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                }
+                            ],
+                            [
+                                {
+                                    "type_hex": "0000000000000001",
+                                    "type": 1,
+                                    "account": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                },
+                                {
+                                    "type_hex": "0000000000000030",
+                                    "currency": "CNY",
+                                    "type": 48,
+                                    "issuer": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y"
+                                },
+                                {
+                                    "type_hex": "0000000000000030",
+                                    "currency": "BTC",
+                                    "type": 48,
+                                    "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                }
+                            ],
+                            [
+                                {
+                                    "type_hex": "0000000000000001",
+                                    "type": 1,
+                                    "account": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                },
+                                {
+                                    "type_hex": "0000000000000030",
+                                    "currency": "BTC",
+                                    "type": 48,
+                                    "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                }
+                            ],
+                            [
+                                {
+                                    "type_hex": "0000000000000001",
+                                    "type": 1,
+                                    "account": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                },
+                                {
+                                    "type_hex": "0000000000000030",
+                                    "currency": "EUR",
+                                    "type": 48,
+                                    "issuer": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q"
+                                },
+                                {
+                                    "type_hex": "0000000000000030",
+                                    "currency": "BTC",
+                                    "type": 48,
+                                    "issuer": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+                                }
+                            ]
+                        ]
+                    },
+                    "pathTo": "r4PowrZ7KZw83oWDYxzY82ht2kgDmFUpB7",
+                    "baseAsset": "BTC/rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+                    "issues": [
+                        {
+                            "native": false
+                        },
+                        {
+                            "native": false
+                        }
+                    ]
+                }
+            },
+            "ask": 322.0339799113889,
+            "bid": 317.77556030578637,
+            "key": "BTC/rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B/USD/rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B"
+        }
+    ],
+    "ratios": "BTC/rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B/USD/rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B;#BITSTAMP;1,#BITSTAMP;BTC/rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B/USD/rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B;1",
+    "resistance": "BTC/rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B/USD/rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B;#BITSTAMP;0.00001,#BITSTAMP;BTC/rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B/USD/rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B;0.00001"
+}

@@ -1,0 +1,7 @@
+/* rsmartins
+ * user guide at https://docs.gradle.org/2.6/userguide/multi_project_builds.html
+ */
+rootProject.name = 'rippex-marketmaker'
+include 'core', 'arbitrager', 'liquiditymaker', 'webapp', 'ripplepathfind', 'rippleaccountbalance', 'rippleaccountoffers', 'ripplebookoffer', 'ripplecanceloffers', 'ripplecreateoffers'
+
+

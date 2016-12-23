@@ -1,0 +1,49 @@
+<p>This is the report view.</p>
+<h4>Account Offers</h4>
+<div class=".table-responsive">
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="a in accountOffers">
+				<td>{{a}}</td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h4>Avalanche</h4>
+<div class=".table-responsive">
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<td>createdAt</td>
+				<td>enableOpportunityTaker</td>
+				<td>refCost</td>
+				<td>baseAmount</td>
+				<td>counterAmount</td>
+				<td>baseAsset</td>
+				<td>counterAsset</td>
+				<td>Asks</td>
+				<td>Bids</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="av in avalanche">
+				<td>{{av.createdAt}}</td>
+				<td>{{av.enableOpportunityTaker}}</td>
+				<td>{{av.refCost}}</td>
+				<td>{{av.baseAmount}}</td>
+				<td>{{av.counterAmount}}</td>
+				<td>{{av.baseAsset}}</td>
+				<td>{{av.counterAsset}}</td>
+				<td>{{av.listAsks}}</td>
+				<td>{{av.listBids}}</td>
+			</tr>
+	</table>
+</div>

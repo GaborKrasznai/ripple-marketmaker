@@ -1,0 +1,20 @@
+
+
+project(':webapp') {
+
+	mainClassName = "marketmaker.application.WebAppApplication"
+
+	dependencies {
+        compile project(':core')
+        compile("org.springframework.boot:spring-boot-starter-web")
+
+    }
+    
+    jar {
+		exclude ("*.properties")
+		exclude ("resources/static/**")
+	}
+}
+
+
+	
