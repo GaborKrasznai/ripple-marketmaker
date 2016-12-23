@@ -1,0 +1,15 @@
+
+
+project(':liquiditymaker') {
+	dependencies {
+        compile project(':core')
+    }
+    mainClassName = "marketmaker.application.RippleMarketMakerApplication"
+    
+    jar {
+		exclude ("*.properties")
+	}
+}
+
+
+	

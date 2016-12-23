@@ -1,0 +1,62 @@
+Ripple Market Maker Anotações
+
+Applications 
+
+AbstractRippleRabbitConfiguration.java
+	BaseApplication.java
+	RippleMarketMakerApplication.java
+	RippleOfferCancelApplication.java
+	RippleOfferCreateApplication.java
+
+Beans (Components)
+
+RippleLiquidityMakerListener
+	consumer : PATH_FIND, ACCOUNT_BALANCE, ACCOUNT_OFFERS, OFFERBOOK
+	producer: OFFER_CREATE, OFFER_CANCEL
+
+RippleOfferBookPublisher
+	producer: OFFERBOOK
+
+RipplePathfindPublisher
+	producer: PATH_FIND
+
+RippleAccountBalancePublisher
+	producer: ACCOUNT_BALANCE
+
+RippleAccountOffersPublisher
+	producer: ACCOUNT_OFFERS
+
+RippleOfferCancelListener
+	consumer : OFFER_CANCEL
+RippleOfferCreateListener
+	consumer : OFFER_CREATE
+
+RippleMessageLoggerListener
+RippleMessageStoreListener
+
+* A producer is a user application that sends messages.
+* A queue is a buffer that stores messages.
+* A consumer is a user application that receives messages.
+
+Canais de comunicação AMQP (RabbitMQ)
+
+Exchange
+
+Work Queue
+
+	ripplemm.offer.offer_create
+	ripplemm.offer.offer_cancel
+
+Publish/Subscribe
+	
+MarketDataExchange
+	ripplemm.marketdata.account_offers 
+	ripplemm.marketdata.account_balance
+	ripplemm.marketdata.pathfind
+	ripplemm.marketdata.offerbook
+
+No furuto pretendo implementar a API RPC do rippled como mensagens processadas e customizadas com os java beans usando o AMQP.  
+rippled rpc api (account_lines, account_trust, ledger, monitor payment, monitor transaction, monitor offer)
+
+
+

@@ -1,0 +1,34 @@
+import org.json.*;
+import java.math.*;
+import com.ripple.core.coretypes.STArray;
+import com.ripple.core.types.known.sle.entries.Offer;
+import java.math.BigDecimal;
+import marketmaker.services.*;
+import com.ripple.core.coretypes.Issue;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import java.util.ArrayList;
+import org.javatuples.Pair;
+import marketmaker.services.algorithms.RippleLiquidityMakerListener;
+import com.ripple.core.types.known.tx.txns.OfferCreate;
+
+log.info("RIPPEX LIQUIDITY TAKER SCRIPT");
+RippleLiquidityMakerListener r = new RippleLiquidityMakerListener();
+
+List listAsks = new ArrayList();
+List listBids = new ArrayList();
+List rangeAsks = new ArrayList();
+List rangeBids = new ArrayList();
+
+ for (int i = 1; i <= maxOpenAsks.intValue(); i++) {
+    double ask = baseCost * (1 + marginAsk.doubleValue()) * (1 + (i - 1) * degreeAsk.doubleValue());
+    listAsks.add(ask);
+    rangeAsks.add(r.calculateRange(ask, slippage.doubleValue(), i));
+}
+
+for (int i = 1; i <= maxOpenBids.intValue(); i++) {
+    double bid = baseCost * (1 - marginBid.doubleValue()) * (1 - (i - 1) * degreeBid.doubleValue());
+    listBids.add(bid);
+    rangeBids.add(r.calculateRange(bid, slippage.doubleValue(), i));
+}
+

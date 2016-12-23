@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <logger name="org.springframework.web" level="DEBUG"/>
+    <property name="LOG_FILE" value="${LOG_FILE:-${LOG_PATH:-${LOG_TEMP:-${java.io.tmpdir:-/tmp}}/}rippex.log}"/>
+    <root level="INFO">
+        <appender-ref ref="FILE" />
+    </root>
+    <root level="info">
+        <appender-ref ref="CONSOLE" />
+    </root>
+</configuration>

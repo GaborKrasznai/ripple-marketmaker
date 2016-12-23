@@ -1,0 +1,146 @@
+<div class="row marketing">
+	<h4>Avalanche Market Maker Setup</h4>
+	<form>
+		<div class="input-group">
+			<label for="instanceId">Instance ID</label> <input type="text"
+				class="form-control" id="instanceId" placeholder="instanceId"
+				ng-model="instanceId"> <span
+				class="input-group-btn">
+				<button class="btn btn-default" type="button"
+					ng-click="requestAvalancheSetup()">Carregar</button>
+			</span>
+		</div>
+		<div class="checkbox">
+			<label> <input type="checkbox"
+				id="cancelAllAccountOffersOnStart"
+				ng-model="instruments.cancelAllAccountOffersOnStart"> Enable
+				Cancel Offers Start
+			</label>
+		</div>
+		<div class="checkbox">
+			<label> <input type="checkbox" id="enableOpportunityTaker"
+				ng-model="instruments.enableOpportunityTaker"> Enable
+				Opportunity Taker
+			</label>
+		</div>
+		<div class="form-group">
+			<label for="rippleAccount">Ripple Account (Seed)</label> <input type="text"
+				class="form-control" id="rippleAccount" placeholder="rippleAccount"
+				ng-model="instruments.rippleAccount">
+		</div>
+		<div class="form-group">
+			<label for="pathTo">Conta De</label> <input type="text"
+				class="form-control" id="pathTo" placeholder="pathTo"
+				ng-model="instruments.pathTo">
+		</div>
+		<div class="form-group">
+			<label for="pathFrom">Conta Para</label> <input type="text"
+				class="form-control" id="pathFrom" placeholder="pathFrom"
+				ng-model="instruments.pathFrom">
+		</div>
+		<div class="form-group">
+			<label for="baseAsset">Ativo Base</label> <input type="text"
+				class="form-control" id="baseAsset" placeholder="baseAsset"
+				ng-model="instruments.baseAsset">
+		</div>
+		<div class="form-group">
+			<label for="counterAsset">Ativo Par</label> <input type="text"
+				class="form-control" id="counterAsset" placeholder="counterAsset"
+				ng-model="instruments.counterAsset">
+		</div>
+		<div class="form-group">
+			<label for="baseAmount">Profundidade</label> <input type="text"
+				class="form-control" id="baseAmount" placeholder="baseAmount"
+				ng-model="instruments.baseAmount">
+		</div>
+		<div class="form-group">
+			<label for="slippage">Slippage</label> <input type="text"
+				class="form-control" id="slippage" placeholder="slippage"
+				ng-model="instruments.slippage">
+		</div>
+		<div class="form-group">
+			<label for="refAsset">Ativo Referencia</label> <input type="text"
+				class="form-control" id="refAsset" placeholder="refAsset"
+				ng-model="instruments.refAsset">
+		</div>
+		<div class="form-group">
+			<label for="refCost">Custo da Referencia</label> <input type="text"
+				class="form-control" id="refCost" placeholder="refCost"
+				ng-model="instruments.refCost">
+		</div>
+		<div class="form-group">
+			<label for="refCostMargin">Margem Correcao da Referencia</label> <input
+				type="text" class="form-control" id="refCostMargin"
+				placeholder="refCostMargin" ng-model="instruments.refCostMargin">
+		</div>
+		<div class="form-group">
+			<label for="counterAsset">Live Feed Endpoint</label> <input
+				type="text" class="form-control" id="liveFeedEndpoint"
+				placeholder="liveFeedEndpoint"
+				ng-model="instruments.liveFeedEndpoint">
+		</div>
+		<div class="checkbox">
+			<label> <input type="checkbox" id="liveFeedEnabled"
+				ng-model="instruments.liveFeedEnabled"> Enable Live Feed
+			</label>
+		</div>
+
+		<div class="form-group">
+			<label for="counterAsset">Live Feed Currency Pair</label> <input
+				type="text" class="form-control" id="liveFeedCurrencyPair"
+				placeholder="liveFeedCurrencyPair"
+				ng-model="instruments.liveFeedCurrencyPair">
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-group">
+					<label for="marginBid">Compra Margem</label> <input type="text"
+						class="form-control" id="marginBid" placeholder="marginBid"
+						ng-model="instruments.marginBid">
+				</div>
+				<div class="form-group">
+					<label for="maxOpenBids">Numero Maximo de Orderns de Compra</label> <input type="text"
+						class="form-control" id="maxOpenBids" placeholder="maxOpenBids"
+						ng-model="instruments.maxOpenBids">
+				</div>
+				<div class="form-group">
+					<label for="baseExpo">Compra Exposicao</label> <input type="text"
+						class="form-control" id="baseExpo" placeholder="baseExpo"
+						ng-model="instruments.baseExpo">
+				</div>
+				<div class="form-group">
+					<label for="degreeBid">Compra Grau</label> <input type="text"
+						class="form-control" id="degreeBid" placeholder="degreeBid"
+						ng-model="instruments.degreeBid">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group">
+					<label for="marginAsk">Venda Margem</label> <input type="text"
+						class="form-control" id="marginAsk" placeholder="marginAsk"
+						ng-model="instruments.marginAsk">
+				</div>
+				<div class="form-group">
+					<label for="maxOpenBids">Numero Maximo de Orderns de Venda</label> <input type="text"
+						class="form-control" id="maxOpenAsks" placeholder="maxOpenAsks"
+						ng-model="instruments.maxOpenAsks">
+				</div>
+				<div class="form-group">
+					<label for="baseExpo">Venda Exposicao</label> <input type="text"
+						class="form-control" id="counterExpo" placeholder="counterExpo"
+						ng-model="instruments.counterExpo">
+				</div>
+				<div class="form-group">
+					<label for="degreeBid">Venda Grau</label> <input type="text"
+						class="form-control" id="degreeAsk" placeholder="degreeAsk"
+						ng-model="instruments.degreeAsk">
+				</div>
+			</div>
+
+			<button type="submit" class="btn btn-default"
+				ng-click="saveAvalancheSetup()">Salvar</button>
+		</div>
+	</form>
+</div>
+
+</div>

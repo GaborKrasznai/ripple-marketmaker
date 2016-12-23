@@ -1,0 +1,15 @@
+
+
+project(':ripplepathfind') {
+	dependencies {
+        compile project(':core')
+    }
+    mainClassName = "marketmaker.application.RipplePathfindApplication"
+    
+    jar {
+	//	exclude ("*.properties")
+	}
+}
+
+
+	

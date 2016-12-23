@@ -1,0 +1,10 @@
+project(':arbitrager') {
+	mainClassName = "marketmaker.application.ArbitragerApplication"
+	
+	dependencies {
+        compile project(':core')
+    }
+}
+
+
+	

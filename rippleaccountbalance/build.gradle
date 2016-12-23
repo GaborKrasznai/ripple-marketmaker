@@ -1,0 +1,15 @@
+
+
+project(':rippleaccountbalance') {
+	dependencies {
+        compile project(':core')
+    }
+    mainClassName = "marketmaker.application.RippleAccountBalanceApplication"
+    
+    jar {
+	//	exclude ("*.properties")
+	}
+}
+
+
+	

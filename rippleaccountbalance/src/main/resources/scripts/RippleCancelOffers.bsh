@@ -1,0 +1,30 @@
+import org.json.*;
+import java.math.*;
+import com.ripple.core.coretypes.STArray;
+import com.ripple.core.types.known.sle.entries.Offer;
+import java.math.BigDecimal;
+import marketmaker.services.*;
+import marketmaker.services.ripple.RippleCancelOffers;
+import com.ripple.core.coretypes.Issue;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+log.info("RIPPLE CANCEL OFFER SCRIPT");
+
+if(getsCurrency.equals(baseAsset)) {
+        // ask
+        BigDecimal myAskOfferPrice = takerPays.divide(takerGets, new MathContext(7));
+
+        if (myAskOfferPrice.compareTo(bestAskPrice) == -1
+                || myAskOfferPrice.compareTo(worstAskPrice) == 1) {
+                RippleCancelOffers.cancelOffer(offer, account, transactionManager);
+        }
+} else if(paysCurrency.equals(baseAsset)) {
+        // bid
+        BigDecimal myBidOfferPrice = takerGets.divide(takerPays, new MathContext(7));
+
+        if (myBidOfferPrice.compareTo(bestBidPrice) == 1
+                || myBidOfferPrice.compareTo(worstBidPrice) == -1) {
+            RippleCancelOffers.cancelOffer(offer, account, transactionManager);
+        }
+}
